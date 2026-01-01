@@ -1,12 +1,13 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
-import Skills from "./components/skills";
 import Experience from "./components/Experience";
 import Badges from "./components/Badges";
 import Certificates from "./components/Certificates";
 import Leadership from "./components/Leadership";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
+
 
 function App() {
   return (
@@ -14,12 +15,13 @@ function App() {
       <Navbar />
       <Hero />
       <Projects />
-      <skills />
+      <Skills />
       <Experience />
       <Badges />
       <Certificates />
       <Leadership />
       <Contact />
+
     </div>
   );
 }
