@@ -6,7 +6,7 @@ import Badges from "./components/Badges";
 import Certificates from "./components/Certificates";
 import Leadership from "./components/Leadership";
 import Contact from "./components/Contact";
-import Skills from "./components/Skills";
+
 
 
 function App() {
@@ -15,7 +15,6 @@ function App() {
       <Navbar />
       <Hero />
       <Projects />
-      <Skills />
       <Experience />
       <Badges />
       <Certificates />
