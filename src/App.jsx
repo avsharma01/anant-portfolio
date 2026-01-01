@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Skills from "./components/skills";
 import Experience from "./components/Experience";
 import Badges from "./components/Badges";
 import Certificates from "./components/Certificates";
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <Projects />
-      <Skills />
+      <skills />
       <Experience />
       <Badges />
       <Certificates />
